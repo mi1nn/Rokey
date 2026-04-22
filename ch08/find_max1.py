@@ -119,7 +119,7 @@ def fmax7(fu):
     for i in range(1, len(fu)):
         if max < fu[i]:
             max = fu[i]
-    
+
     return max
 
 v = [5, 4, 1, 7, 8, 12, 15, 3, 17]

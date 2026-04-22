@@ -10,10 +10,11 @@ class Bag:
     call_name = "가방"    
     
     # 멤버 함수 (메서드)
-    def info(self):
+    def __init__(self, kind, color):
+        print("초기화 수행")
         # 인스턴스 멤버 변수
-        self.kind = ""
-        self.color = ""
+        self.kind = kind
+        self.color = color
         self.data = []
     
     def add(self, x):   # 넣다
@@ -23,15 +24,19 @@ class Bag:
         self.add(x)
         self.add(x)
         
-shoulder = Bag()   # 인스턴스 객체 생성
+shoulder = Bag("숄더백", "검정색")   # 인스턴스 객체 생성
+print(shoulder.kind)
+print(shoulder.color)
 print(shoulder.call_name)
-shoulder.info()
+# shoulder.info()
 shoulder.add("휴대폰")
 shoulder.addtwice("돈")
 print(shoulder.data)
 
-handbag = Bag()
-handbag.info()
+handbag = Bag("핸드백", "초록색")
+print(handbag.kind)
+print(handbag.color)
+# handbag.info()
 handbag.add("파우치")
 handbag.addtwice("돈")
 print(handbag.data)

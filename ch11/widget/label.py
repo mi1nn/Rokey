@@ -12,7 +12,7 @@ olabel2 = Label(otk, text = "녹", bg = "green", width = 20)
 olabel3 = Label(otk, text = "파", bg = "blue", width = 20)
 
 # 2. 위젯 배치
-olabel1.pack()
+olabel1.pack()L
 olabel2.pack()
 olabel3.pack()
 

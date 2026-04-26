@@ -15,16 +15,17 @@ coffee = {0: "아메리카노",
           3: "에스프레소"}
 
 check_value = {}   # check_value가 리스트라면, for문에 append를 사용해야함
+# 불리언 변수 4개 생성
 for i in range(len(coffee)):
     check_value[i] = BooleanVar()
+
+print("chck_value: ", check_value)
 
 # check_value1 = BooleanVar()    
 # check_value2 = BooleanVar()
 # check_value3 = BooleanVar()
 # check_value4 = BooleanVar()
 
-# check_value1.set(True)
-# val1 = check_value1.get()
 
 for i in range(len(coffee)):
     ocheckButton = Checkbutton(otk, text = coffee[i], variable = check_value[i])

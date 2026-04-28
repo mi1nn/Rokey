@@ -16,6 +16,10 @@
 
 # list_min(numbers)
 
-import math
-fac = math.factorial(5)
-print(fac)
+# import math
+# fac = math.factorial(5)
+# print(fac)
+
+with open("test.txt", "w") as file:
+    file.write("Hello, World!")
+print(file.closed)

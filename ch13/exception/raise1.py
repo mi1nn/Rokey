@@ -6,11 +6,11 @@
 # 예외 발생시키기
 # raise NameError("Hi There")   # 프로그램 중단
 
-# try:
-#     raise NameError("Hi There")
-# except NameError as e:
-#     print("An exception flew by")
-#     print("e: ", e)
+try:
+    raise NameError("Hi There")
+except NameError as e:
+    print("An exception flew by")
+    print("e: ", e)
 
 # print("exit")
 

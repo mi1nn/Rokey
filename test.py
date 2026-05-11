@@ -20,6 +20,14 @@
 # fac = math.factorial(5)
 # print(fac)
 
-with open("test.txt", "w") as file:
-    file.write("Hello, World!")
-print(file.closed)
+# with open("test.txt", "w") as file:
+#     file.write("Hello, World!")
+# print(file.closed)
+
+# 문제 2) scipy 모듈을 사용하여 x^2+6x+9=0 의 근을 찾는 프로그램을 작성하시오.
+# from scipy.optimize import root
+# def equation(x):
+#     return x**2 + 6*x + 9
+# sol = root(equation, x0 = 1)
+# print(f"Root: {sol.x}")
+

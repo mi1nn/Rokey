@@ -1,0 +1,11 @@
+# find_root.py
+
+from scipy.optimize import root
+
+def equation(x):
+    return x**2 - 4
+
+sol = root(equation, x0 = 1)
+print(f"Root: {sol.x}")
+
+# '함수값이 0이 되는 x를 찾는다'를 전제로 작동

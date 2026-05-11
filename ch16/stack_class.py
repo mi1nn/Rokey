@@ -37,7 +37,8 @@ class Stack:
     # 6. 스택 상태 변환
     def status_stack(self):
         return self.stack
-    
+
+
 
 if __name__ == "__main__":
     my_stack = Stack()

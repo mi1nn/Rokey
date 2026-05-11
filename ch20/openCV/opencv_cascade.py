@@ -32,3 +32,6 @@ for (x, y, w, h) in faces:
 cv2.imshow('loaded Image', image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+# 정면 얼굴에서 자주 나타나는 밝기 패턴을 단계적으로 검사해서 얼굴인지 판단
+# -> 얼굴이라면 이런 패턴이어야 한다. 
